@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query Result</title>
+</head>
+<body>
+    <h1>Query Result</h1>
+    
+    <!-- Display the snippet if query was found -->
+    {% if snippet %}
+        <p><strong>Search Query:</strong> {{ query }}</p>
+        <p><strong>Context:</strong></p>
+        <p>{{ snippet }}</p>
+    {% elif error_message %}
+        <!-- Display an error message if the query was not found -->
+        <p>{{ error_message }}</p>
+    {% endif %}
+
+    <a href="/">Go back</a>
+</body>
+</html>
