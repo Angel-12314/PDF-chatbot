@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/styles.css"/>
+    <title>Ask a Query</title>
+</head>
+<body>
+    <div class="center">
+    <h1>Ask a Query About the PDF</h1>
+    <form action="/query" method="POST">
+        <input type="hidden" name="text" value="{{ text }}">
+        <label for="query">Enter your query:</label>
+        <input type="text" id="query" name="query">
+        <input type="submit" value="Submit Query">
+    </form>
+    </div>
+</body>
+</html>

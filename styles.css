@@ -1,0 +1,16 @@
+body {
+    background-image: url('https://w0.peakpx.com/wallpaper/32/605/HD-wallpaper-neutral-boho-for-laptop-minimalist.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+  }
+
+.center {
+    margin: auto;
+    margin-top: 170px;
+    width: 30%;
+    border: 3px;
+    padding: 10px;
+  }
+
+
